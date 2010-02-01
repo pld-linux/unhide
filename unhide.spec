@@ -1,12 +1,12 @@
 Summary:	forensic tool to find hidden processes
 Summary(pl.UTF-8):	narzędzie do znajdywania ukrytych procesów
 Name:		unhide
-Version:	20080519
-Release:	0.1
+Version:	20090810
+Release:	1
 License:	GPL v3
 Group:		Applications
 Source0:	http://www.security-projects.com/%{name}%{version}.tgz
-# Source0-md5:	1194ec0f89c6f28e8eb64fb66836f70f
+# Source0-md5:	f9842175046e6eb10d22f5a988293171
 URL:		http://www.security-projects.com/?Unhide
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,6 +38,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt
+%doc README.txt LEEME.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man8/unhide*
