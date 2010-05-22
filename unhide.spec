@@ -4,7 +4,7 @@ Name:		unhide
 Version:	20090810
 Release:	1
 License:	GPL v3
-Group:		Applications
+Group:		Applications/System
 Source0:	http://www.security-projects.com/%{name}%{version}.tgz
 # Source0-md5:	f9842175046e6eb10d22f5a988293171
 URL:		http://www.security-projects.com/?Unhide
